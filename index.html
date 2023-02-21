@@ -6,7 +6,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
 <script>
-			var countryCodeMasString="BG,CZ,GR,HR,HU,IT,PL,RO,SI,SK";
+			var countryCodeMasString="HU";
 			window.language="hu";
 			window.dir="ltr";
 			window.cdn_path="//rcktland-a.akamaihd.net/10400_2ccc4759-f444-4059-9ce9-503f9c4726d3/";
@@ -314,18 +314,11 @@
                     <p><span class="x_price_current">9900</span> <span class="x_currency">Ft</span> </p>
                   </div>
                 </div>
-                <form class="x_order_form" method="post" action="/submit">
+                <form class="x_order_form" method="post" action="https://tracker.rocketprofit.com/conversion/new">
                   <div class="x_country_select"><select class="country-select" name="country_code">
-					<option value="IT">Italy</option>
-					<option value="SK">Slovakia</option>
-					<option value="CZ">Czechia</option>
-					<option value="PL">Poland</option>
-					<option value="BG">Bulgaria</option>
+				
 					<option value="HU" selected="selected">Hungary</option>
-					<option value="SI">Slovenia</option>
-					<option value="HR">Croatia</option>
-					<option value="RO">Romania</option>
-					<option value="GR">Greece</option>
+				
 			</select></div>
                   <div class="row row_name not_focus">
                     <div> <input id="name" name="name" placeholder="Az Ön neve" required type="text" value autocomplete="name"> </div>
@@ -336,7 +329,16 @@
                   <div class="row row_save">
                     <div> <button type="submit" id="save">Ophtalax megvásárlása most</button> </div>
                   </div> <span class="form-note"> * egy termék ára </span>
-              <input type="hidden" name="landing_id" value><input type="hidden" name="goal_id" value="746"><input type="hidden" name="price" value="9900"><input type="hidden" name="delivery_price" value="0"><input type="hidden" name="es_list_id" value><input type="hidden" name="user_language" value="hu"><input type="hidden" name="campaign_id" value="535910"><input type="hidden" name="chatbot_history" value></form>
+              <input type="hidden" name="landing_id" value>
+			<input type="hidden" name="goal_id" value="746">
+			<input type="hidden" name="price" value="9900">
+			<input type="hidden" name="delivery_price" value="0">
+			<input type="hidden" name="es_list_id" value>
+			<input type="hidden" name="user_language" value="hu">
+			<input type="hidden" name="campaign_id" value="535910">
+			<input type="hidden" name="chatbot_history" value>
+		      
+		      </form>
               </div>
             </div>
           </div>
